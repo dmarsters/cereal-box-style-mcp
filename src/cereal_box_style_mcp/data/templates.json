@@ -1,0 +1,30 @@
+{
+  "mascot_theater": {
+    "emphasis_order": ["subject", "action", "effects", "setting", "colors", "typography", "style_markers"],
+    "structure": "Subject → Action → Setting → Colors → Effects → Typography → Style Markers"
+  },
+  "health_halo": {
+    "emphasis_order": ["subject", "action", "setting", "colors", "style_markers"],
+    "structure": "Subject → Action → Setting → Colors → Style Markers"
+  },
+  "nostalgia_revival": {
+    "emphasis_order": ["subject", "setting", "colors", "typography", "action", "style_markers"],
+    "structure": "Subject → Setting → Colors → Typography → Action → Style Markers"
+  },
+  "premium_disruptor": {
+    "emphasis_order": ["subject", "setting", "colors", "effects", "style_markers"],
+    "structure": "Subject → Setting → Colors → Effects → Style Markers"
+  },
+  "kid_chaos": {
+    "emphasis_order": ["action", "subject", "effects", "colors", "setting", "typography", "style_markers"],
+    "structure": "Action → Subject → Effects → Colors → Setting → Typography → Style Markers"
+  },
+  "transparent_honest": {
+    "emphasis_order": ["subject", "action", "setting", "effects", "style_markers"],
+    "structure": "Subject → Action → Setting → Effects → Style Markers"
+  },
+  "adventure_fantasy": {
+    "emphasis_order": ["subject", "setting", "action", "effects", "colors", "style_markers"],
+    "structure": "Subject → Setting → Action → Effects → Colors → Style Markers"
+  }
+}
