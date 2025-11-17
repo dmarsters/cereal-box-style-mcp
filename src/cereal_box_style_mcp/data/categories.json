@@ -1,0 +1,1099 @@
+{
+  "mascot_theater": {
+    "name": "mascot_theater",
+    "description": "Cartoon mascot characters with bold outlines, bright colors, dynamic energy",
+    "visual_dna": [
+      "cartoon character",
+      "bold black outlines",
+      "bright primary colors",
+      "motion lines",
+      "starbursts",
+      "bubbly typography",
+      "oversized proportions",
+      "commercial illustration style"
+    ],
+    "subject_rules": {
+      "human": {
+        "treatment": "cartoon_mascot",
+        "features": [
+          "oversized head (1.5x proportion)",
+          "simplified 4-finger hands",
+          "simplified anatomy",
+          "expressive eyes"
+        ],
+        "attributes": [
+          "bold black outlines",
+          "thick drop shadows",
+          "white gloves optional"
+        ]
+      },
+      "animal": {
+        "treatment": "anthropomorphized",
+        "features": [
+          "bipedal stance",
+          "clothed",
+          "expressive eyebrows",
+          "human-like gestures"
+        ],
+        "attributes": [
+          "bold outlines",
+          "simple rounded shapes"
+        ]
+      },
+      "object": {
+        "treatment": "personified",
+        "features": [
+          "add face with googly eyes",
+          "add limbs and hands",
+          "personality expression"
+        ],
+        "attributes": [
+          "friendly smile or expression"
+        ]
+      }
+    },
+    "action_rules": {
+      "low_energy": {
+        "treatment": "friendly gesture",
+        "features": [
+          "static pose",
+          "one hand waving or pointing",
+          "welcoming stance"
+        ],
+        "effects": [
+          "small sparkles",
+          "simple motion line"
+        ]
+      },
+      "medium_energy": {
+        "treatment": "animated motion",
+        "features": [
+          "leaning into action",
+          "arms in motion",
+          "one foot slightly raised"
+        ],
+        "effects": [
+          "motion lines",
+          "small starbursts",
+          "action swooshes"
+        ]
+      },
+      "high_energy": {
+        "treatment": "dynamic mid-action",
+        "features": [
+          "mid-leap or jump",
+          "one foot always off ground",
+          "arms spread wide",
+          "hair/clothing flowing"
+        ],
+        "effects": [
+          "speed lines",
+          "motion blur trail",
+          "dust clouds",
+          "large starbursts",
+          "impact marks"
+        ]
+      }
+    },
+    "setting_rules": {
+      "indoor": {
+        "treatment": "simplified_icons",
+        "elements": "2-3 key objects only",
+        "background": "flat solid color with no detail"
+      },
+      "outdoor": {
+        "treatment": "generic_simple",
+        "elements": "blue sky, white puffy clouds, green ground line, simple curved hills",
+        "background": "no texture, basic shapes"
+      },
+      "abstract": {
+        "treatment": "radial_sunburst",
+        "elements": "concentric circles or radiating lines",
+        "background": "bright primary color"
+      }
+    },
+    "color_rules": {
+      "mappings": {
+        "blue": "bright primary blue",
+        "red": "cherry red",
+        "green": "lime green",
+        "yellow": "sunshine yellow",
+        "purple": "grape purple",
+        "orange": "bright orange",
+        "pink": "bubblegum pink"
+      },
+      "always_add": "complementary accent color",
+      "saturation": "maximum",
+      "gradients": false,
+      "max_colors": 4,
+      "default_palette": "bright primary colors (red, blue, yellow)"
+    },
+    "mandatory_markers": [
+      "cartoon character",
+      "bold black outlines",
+      "commercial illustration style",
+      "bright primary colors"
+    ],
+    "negative_prompts": [
+      "realistic",
+      "photographic",
+      "detailed anatomy",
+      "complex shading",
+      "gradient backgrounds",
+      "violent",
+      "dark",
+      "gritty"
+    ],
+    "trigger_keywords": [
+      "fun",
+      "playful",
+      "kids",
+      "mascot",
+      "cartoon",
+      "energetic"
+    ],
+    "ideal_subjects": [
+      "animal",
+      "food",
+      "character"
+    ],
+    "compatible_moods": [
+      "happy",
+      "excited",
+      "energetic",
+      "playful",
+      "joyful"
+    ]
+  },
+  "health_halo": {
+    "name": "health_halo",
+    "description": "Minimalist natural photography with muted tones and abundant white space",
+    "visual_dna": [
+      "natural palette",
+      "abundant white space",
+      "soft natural lighting",
+      "texture emphasis",
+      "clean typography",
+      "documentary style",
+      "muted saturation"
+    ],
+    "subject_rules": {
+      "human": {
+        "treatment": "hands_only_or_silhouette",
+        "features": [
+          "cropped to hands in close-up",
+          "partial face in shadow",
+          "no identifying features",
+          "focus on capable gestures"
+        ],
+        "attributes": [
+          "natural skin tones",
+          "minimal styling",
+          "authentic presence"
+        ]
+      },
+      "animal": {
+        "treatment": "naturalistic",
+        "features": [
+          "documentary photography style",
+          "natural behavior",
+          "real environment"
+        ],
+        "attributes": [
+          "soft focus background",
+          "natural colors"
+        ]
+      },
+      "object": {
+        "treatment": "deconstructed_materials",
+        "features": [
+          "shown as raw materials",
+          "ingredient stage",
+          "component parts visible"
+        ],
+        "attributes": [
+          "texture visible",
+          "natural finish",
+          "organized flat-lay arrangement"
+        ]
+      }
+    },
+    "action_rules": {
+      "low_energy": {
+        "treatment": "contemplative_stillness",
+        "features": [
+          "frozen moment",
+          "minimal movement",
+          "mindful presence"
+        ],
+        "effects": [
+          "soft focus",
+          "gentle breathing space"
+        ]
+      },
+      "medium_energy": {
+        "treatment": "controlled_movement",
+        "features": [
+          "precise gesture",
+          "deliberate motion",
+          "focused action"
+        ],
+        "effects": [
+          "slight motion blur on hands only",
+          "rest of image sharp"
+        ]
+      },
+      "high_energy": {
+        "treatment": "peak_athletic_form",
+        "features": [
+          "apex of movement",
+          "perfect form",
+          "athletic control"
+        ],
+        "effects": [
+          "subtle motion blur on extremities",
+          "sharp center focus"
+        ]
+      }
+    },
+    "setting_rules": {
+      "indoor": {
+        "treatment": "natural_light_flooded",
+        "elements": "minimal furniture in soft focus background",
+        "background": "cream or white walls with abundant negative space"
+      },
+      "outdoor": {
+        "treatment": "golden_hour_natural",
+        "elements": "soft focus landscape",
+        "background": "blurred with shallow depth-of-field"
+      },
+      "abstract": {
+        "treatment": "gradient_minimal",
+        "elements": "gentle color gradient",
+        "background": "cream to white transition"
+      }
+    },
+    "color_rules": {
+      "mappings": {
+        "blue": "soft sky blue, muted slate",
+        "red": "terracotta, dusty rose",
+        "green": "sage, olive, moss green",
+        "yellow": "cream, wheat, pale gold",
+        "purple": "lavender, dusty mauve",
+        "orange": "burnt sienna, clay",
+        "pink": "blush, pale rose"
+      },
+      "always_add": "warm natural light temperature",
+      "saturation": "low to medium",
+      "gradients": true,
+      "max_colors": 4,
+      "default_palette": "natural palette of creams, soft blues, sage greens, warm earth tones"
+    },
+    "mandatory_markers": [
+      "natural palette",
+      "clean composition",
+      "matte finish aesthetic",
+      "soft natural lighting"
+    ],
+    "negative_prompts": [
+      "cartoon",
+      "bright neon colors",
+      "artificial",
+      "cluttered",
+      "busy composition",
+      "overly saturated",
+      "harsh lighting"
+    ],
+    "trigger_keywords": [
+      "natural",
+      "wellness",
+      "organic",
+      "authentic",
+      "minimal",
+      "wholesome"
+    ],
+    "ideal_subjects": [
+      "food",
+      "human",
+      "object"
+    ],
+    "compatible_moods": [
+      "calm",
+      "peaceful",
+      "focused",
+      "mindful",
+      "serene"
+    ]
+  },
+  "nostalgia_revival": {
+    "name": "nostalgia_revival",
+    "description": "Vintage screen print aesthetic with limited palettes and retro typography",
+    "visual_dna": [
+      "retro color combinations",
+      "vintage typography",
+      "simplified geometry",
+      "screen print aesthetic",
+      "craft paper texture",
+      "posterized color separation",
+      "hand-drawn quality"
+    ],
+    "subject_rules": {
+      "human": {
+        "treatment": "posterized_silhouette",
+        "features": [
+          "simplified geometric shapes",
+          "minimal facial detail",
+          "dots for eyes",
+          "solid color fills"
+        ],
+        "attributes": [
+          "iconic clothing shapes",
+          "period-appropriate styling",
+          "flat colors"
+        ]
+      },
+      "animal": {
+        "treatment": "folk_art_style",
+        "features": [
+          "decorative patterns on body",
+          "simplified shapes",
+          "woodcut aesthetic"
+        ],
+        "attributes": [
+          "flat color fills",
+          "limited detail"
+        ]
+      },
+      "object": {
+        "treatment": "technical_diagram",
+        "features": [
+          "blueprint style",
+          "cutaway view",
+          "labeled components"
+        ],
+        "attributes": [
+          "clean lines",
+          "period-appropriate design"
+        ]
+      }
+    },
+    "action_rules": {
+      "low_energy": {
+        "treatment": "static_iconic_pose",
+        "features": [
+          "symmetrical stance",
+          "flat composition",
+          "no movement indication"
+        ],
+        "effects": []
+      },
+      "medium_energy": {
+        "treatment": "two_frame_animation",
+        "features": [
+          "simple motion suggestion",
+          "one leg forward one back",
+          "minimal dynamism"
+        ],
+        "effects": [
+          "simple horizontal speed lines"
+        ]
+      },
+      "high_energy": {
+        "treatment": "geometric_motion",
+        "features": [
+          "angular lean",
+          "stylized movement",
+          "dotted line showing path"
+        ],
+        "effects": [
+          "geometric arc",
+          "simple motion lines"
+        ]
+      }
+    },
+    "setting_rules": {
+      "indoor": {
+        "treatment": "period_furniture_geometric",
+        "elements": "era-appropriate furniture as geometric shapes",
+        "background": "limited color palette blocks"
+      },
+      "outdoor": {
+        "treatment": "stylized_landscape",
+        "elements": "decorative pattern treatment",
+        "background": "simplified horizon with repeated shapes"
+      },
+      "abstract": {
+        "treatment": "geometric_tessellation",
+        "elements": "repeating geometric pattern",
+        "background": "era-specific color blocks"
+      }
+    },
+    "color_rules": {
+      "mappings": {
+        "1960s": "bright optimistic colors (cyan, magenta, yellow, black)",
+        "1970s": "burnt orange, mustard yellow, avocado green, brown",
+        "1980s": "pastel pink, baby blue, mint green, lavender",
+        "1990s": "teal, purple, hot pink, electric lime"
+      },
+      "saturation": "era-dependent",
+      "gradients": false,
+      "max_colors": 5,
+      "default_palette": "burnt orange, mustard yellow, avocado green, brown"
+    },
+    "mandatory_markers": [
+      "vintage screen print aesthetic",
+      "limited color palette",
+      "hand-drawn illustration style",
+      "retro typography"
+    ],
+    "negative_prompts": [
+      "modern",
+      "digital",
+      "gradients",
+      "too many colors",
+      "photorealistic",
+      "contemporary",
+      "3D rendered"
+    ],
+    "trigger_keywords": [
+      "vintage",
+      "retro",
+      "classic",
+      "throwback",
+      "nostalgic",
+      "old-school"
+    ],
+    "ideal_subjects": [
+      "human",
+      "object",
+      "abstract"
+    ],
+    "compatible_moods": [
+      "nostalgic",
+      "calm",
+      "optimistic",
+      "playful"
+    ]
+  },
+  "premium_disruptor": {
+    "name": "premium_disruptor",
+    "description": "Luxury minimalist with dramatic black backgrounds and metallic accents",
+    "visual_dna": [
+      "black or dark backgrounds",
+      "metallic accents",
+      "extreme negative space",
+      "dramatic lighting",
+      "sophisticated typography",
+      "luxury aesthetic",
+      "minimal composition"
+    ],
+    "subject_rules": {
+      "human": {
+        "treatment": "cropped_elegant_element",
+        "features": [
+          "hands performing skilled action",
+          "back of head and shoulders",
+          "partial face in dramatic shadow"
+        ],
+        "attributes": [
+          "anonymous luxury",
+          "sophisticated framing"
+        ]
+      },
+      "animal": {
+        "treatment": "regal_rare_species",
+        "features": [
+          "profile view",
+          "museum lighting",
+          "majestic pose"
+        ],
+        "attributes": [
+          "isolated on black",
+          "dramatic shadows"
+        ]
+      },
+      "object": {
+        "treatment": "museum_artifact",
+        "features": [
+          "isolated on black void",
+          "single dramatic spotlight",
+          "perfect angles"
+        ],
+        "attributes": [
+          "pristine condition",
+          "luxury materials visible"
+        ]
+      }
+    },
+    "action_rules": {
+      "low_energy": {
+        "treatment": "elegant_stillness",
+        "features": [
+          "frozen at peak elegance",
+          "architectural precision",
+          "minimal gesture"
+        ],
+        "effects": [
+          "dramatic shadow play"
+        ]
+      },
+      "medium_energy": {
+        "treatment": "controlled_motion",
+        "features": [
+          "seamless movement",
+          "ballet-like grace",
+          "implied rather than shown"
+        ],
+        "effects": [
+          "subtle motion blur",
+          "rim lighting"
+        ]
+      },
+      "high_energy": {
+        "treatment": "suspended_moment",
+        "features": [
+          "gravity-defying pose",
+          "impossible balance",
+          "dramatic tension"
+        ],
+        "effects": [
+          "extreme rim lighting",
+          "metallic highlights catching motion"
+        ]
+      }
+    },
+    "setting_rules": {
+      "indoor": {
+        "treatment": "single_light_source",
+        "elements": "90% shadow, one dramatic light",
+        "background": "seamless black void"
+      },
+      "outdoor": {
+        "treatment": "abstract_void",
+        "elements": "removed entirely or single material texture",
+        "background": "black seamless"
+      },
+      "abstract": {
+        "treatment": "geometric_luxury",
+        "elements": "architectural elements, geometric patterns",
+        "background": "matte black"
+      }
+    },
+    "color_rules": {
+      "mappings": {
+        "blue": "midnight navy",
+        "red": "deep burgundy",
+        "green": "excluded (rarely premium)",
+        "gold": "24k gold accent",
+        "silver": "polished chrome",
+        "copper": "brushed copper"
+      },
+      "always_add": "metallic accent",
+      "saturation": "minimal (90% black)",
+      "gradients": true,
+      "max_colors": 2,
+      "default_palette": "matte black background with gold foil accents"
+    },
+    "mandatory_markers": [
+      "black background",
+      "dramatic shadows",
+      "luxury aesthetic",
+      "metallic accents"
+    ],
+    "negative_prompts": [
+      "bright colors",
+      "busy",
+      "cluttered",
+      "cheap",
+      "cartoonish",
+      "multiple light sources",
+      "colorful"
+    ],
+    "trigger_keywords": [
+      "luxury",
+      "premium",
+      "sophisticated",
+      "elegant",
+      "exclusive",
+      "high-end"
+    ],
+    "ideal_subjects": [
+      "object",
+      "human",
+      "food"
+    ],
+    "compatible_moods": [
+      "confident",
+      "sophisticated",
+      "mysterious",
+      "powerful"
+    ]
+  },
+  "kid_chaos": {
+    "name": "kid_chaos",
+    "description": "Maximum visual density with neon colors and extreme perspective",
+    "visual_dna": [
+      "neon electric colors",
+      "extreme perspective angles",
+      "comic book style",
+      "maximum visual density",
+      "anime-influenced",
+      "holographic effects",
+      "explosive energy"
+    ],
+    "subject_rules": {
+      "human": {
+        "treatment": "anime_extreme",
+        "features": [
+          "spiky hair defying gravity",
+          "huge expressive eyes with star highlights",
+          "impossible athletic pose mid-air",
+          "exaggerated proportions"
+        ],
+        "attributes": [
+          "speed-line aura around body",
+          "energy crackling effects"
+        ]
+      },
+      "animal": {
+        "treatment": "extreme_caricature",
+        "features": [
+          "tiny body with giant head",
+          "enormous expressive eyes",
+          "impossible poses"
+        ],
+        "attributes": [
+          "neon coloring",
+          "energy effects"
+        ]
+      },
+      "object": {
+        "treatment": "super_powered_version",
+        "features": [
+          "anthropomorphized with extreme personality",
+          "glowing with energy",
+          "covered in effects"
+        ],
+        "attributes": [
+          "lightning bolts",
+          "sparkles",
+          "speed lines"
+        ]
+      }
+    },
+    "action_rules": {
+      "low_energy": {
+        "treatment": "surprising_intensity",
+        "features": [
+          "even calm actions look energetic",
+          "vibrating in place",
+          "electricity sparking"
+        ],
+        "effects": [
+          "aura glow",
+          "small starbursts"
+        ]
+      },
+      "medium_energy": {
+        "treatment": "explosive_motion",
+        "features": [
+          "multiple after-images",
+          "ground cracking beneath",
+          "wind effects visible"
+        ],
+        "effects": [
+          "motion blur streaks",
+          "energy trails",
+          "impact shockwaves"
+        ]
+      },
+      "high_energy": {
+        "treatment": "maximum_chaos",
+        "features": [
+          "sonic boom visible",
+          "reality breaking effects",
+          "impossible speed",
+          "leaving crater"
+        ],
+        "effects": [
+          "rainbow energy trail",
+          "lightning bolts everywhere",
+          "explosion effects",
+          "screen-filling motion lines"
+        ]
+      }
+    },
+    "setting_rules": {
+      "indoor": {
+        "treatment": "warped_perspective",
+        "elements": "walls at crazy angles, everything tilted",
+        "background": "multiple neon colors, windows glowing"
+      },
+      "outdoor": {
+        "treatment": "impossible_colors",
+        "elements": "purple grass, electric orange sky, cyan trees",
+        "background": "sparkles and effects everywhere"
+      },
+      "abstract": {
+        "treatment": "explosion_of_shapes",
+        "elements": "geometric chaos, multiple vanishing points",
+        "background": "holographic rainbow gradient"
+      }
+    },
+    "color_rules": {
+      "mappings": {
+        "blue": "electric cyan",
+        "red": "hot pink",
+        "green": "laser lime",
+        "yellow": "neon yellow",
+        "orange": "radioactive orange",
+        "purple": "cyber violet",
+        "pink": "shocking pink"
+      },
+      "saturation": "200% maximum",
+      "gradients": true,
+      "max_colors": 8,
+      "default_palette": "neon explosion: hot pink, cyber cyan, laser lime, electric orange, neon purple, shocking yellow"
+    },
+    "mandatory_markers": [
+      "extreme perspective",
+      "neon colors",
+      "comic book style",
+      "maximum visual density"
+    ],
+    "negative_prompts": [
+      "subtle",
+      "minimalist",
+      "muted colors",
+      "calm",
+      "organized",
+      "clean composition",
+      "professional",
+      "understated"
+    ],
+    "trigger_keywords": [
+      "extreme",
+      "intense",
+      "explosive",
+      "chaos",
+      "maximum",
+      "wild"
+    ],
+    "ideal_subjects": [
+      "human",
+      "animal",
+      "object"
+    ],
+    "compatible_moods": [
+      "excited",
+      "energetic",
+      "chaotic",
+      "intense"
+    ]
+  },
+  "transparent_honest": {
+    "name": "transparent_honest",
+    "description": "Clinical documentation with infographics and labeled components",
+    "visual_dna": [
+      "clinical white background",
+      "infographic elements",
+      "labeled components",
+      "systematic layout",
+      "technical documentation",
+      "transparent windows",
+      "grid organization"
+    ],
+    "subject_rules": {
+      "human": {
+        "treatment": "clinical_documentation",
+        "features": [
+          "neutral expression",
+          "professional attire",
+          "demonstrating process in steps"
+        ],
+        "attributes": [
+          "lab coat aesthetic",
+          "visible tool organization"
+        ]
+      },
+      "animal": {
+        "treatment": "taxonomic_illustration",
+        "features": [
+          "scientific accuracy",
+          "multiple angles shown",
+          "anatomical labels"
+        ],
+        "attributes": [
+          "systematic presentation"
+        ]
+      },
+      "object": {
+        "treatment": "exploded_view_diagram",
+        "features": [
+          "parts separated and labeled",
+          "internal structure visible",
+          "measurements shown"
+        ],
+        "attributes": [
+          "technical precision",
+          "component identification"
+        ]
+      }
+    },
+    "action_rules": {
+      "low_energy": {
+        "treatment": "documented_process",
+        "features": [
+          "step-by-step breakdown",
+          "numbered sequence",
+          "clear methodology"
+        ],
+        "effects": [
+          "directional arrows",
+          "process labels"
+        ]
+      },
+      "medium_energy": {
+        "treatment": "technique_demonstration",
+        "features": [
+          "key positions highlighted",
+          "force vectors shown",
+          "efficiency metrics"
+        ],
+        "effects": [
+          "measurement overlays",
+          "trajectory lines"
+        ]
+      },
+      "high_energy": {
+        "treatment": "physics_visualization",
+        "features": [
+          "force vectors labeled",
+          "impact points marked",
+          "energy transfer shown"
+        ],
+        "effects": [
+          "scientific diagrams",
+          "measurement data"
+        ]
+      }
+    },
+    "setting_rules": {
+      "indoor": {
+        "treatment": "grid_systematic",
+        "elements": "grid floor, measurements on walls",
+        "background": "clinical white with specifications labeled"
+      },
+      "outdoor": {
+        "treatment": "botanical_garden_labels",
+        "elements": "species tags, ecosystem connections",
+        "background": "white with organized information overlay"
+      },
+      "abstract": {
+        "treatment": "graph_paper_coordinate",
+        "elements": "coordinate system, measurement grid",
+        "background": "white with systematic layout"
+      }
+    },
+    "color_rules": {
+      "mappings": {
+        "blue": "used for informational elements only",
+        "red": "warning/alert indicators only",
+        "green": "positive metric indicators only",
+        "yellow": "caution/attention markers"
+      },
+      "saturation": "functional not decorative",
+      "gradients": false,
+      "max_colors": 4,
+      "default_palette": "clinical white dominating 80%, kraft brown accents, systematic color coding"
+    },
+    "mandatory_markers": [
+      "clinical white background",
+      "systematic layout",
+      "technical documentation style",
+      "labeled components"
+    ],
+    "negative_prompts": [
+      "decorative",
+      "artistic flourishes",
+      "emotional",
+      "dramatic",
+      "stylized",
+      "abstract"
+    ],
+    "trigger_keywords": [
+      "transparent",
+      "honest",
+      "educational",
+      "technical",
+      "scientific",
+      "clinical"
+    ],
+    "ideal_subjects": [
+      "object",
+      "human",
+      "animal"
+    ],
+    "compatible_moods": [
+      "neutral",
+      "focused",
+      "educational"
+    ]
+  },
+  "adventure_fantasy": {
+    "name": "adventure_fantasy",
+    "description": "Cinematic epic scale with magical effects and dramatic atmosphere",
+    "visual_dna": [
+      "cinematic composition",
+      "dramatic atmospheric lighting",
+      "magical particle effects",
+      "epic scale",
+      "fantasy world aesthetic",
+      "volumetric lighting",
+      "mystical elements"
+    ],
+    "subject_rules": {
+      "human": {
+        "treatment": "epic_hero",
+        "features": [
+          "backlit silhouette on cliff edge",
+          "cape or coat billowing",
+          "looking toward destiny",
+          "heroic pose"
+        ],
+        "attributes": [
+          "legendary quality",
+          "mystical aura"
+        ]
+      },
+      "animal": {
+        "treatment": "mythical_creature",
+        "features": [
+          "transformed to legendary version",
+          "glowing eyes",
+          "ethereal presence"
+        ],
+        "attributes": [
+          "magical aura",
+          "larger than life"
+        ]
+      },
+      "object": {
+        "treatment": "legendary_artifact",
+        "features": [
+          "glowing with ancient power",
+          "covered in mystical runes",
+          "floating or levitating"
+        ],
+        "attributes": [
+          "quest object quality",
+          "magical resonance"
+        ]
+      }
+    },
+    "action_rules": {
+      "low_energy": {
+        "treatment": "dramatic_stillness",
+        "features": [
+          "meditation pose",
+          "power building",
+          "mystical peace"
+        ],
+        "effects": [
+          "gentle magical particles floating",
+          "soft ethereal glow"
+        ]
+      },
+      "medium_energy": {
+        "treatment": "cinematic_motion",
+        "features": [
+          "dust and leaves swirling",
+          "destiny path ahead",
+          "purposeful movement"
+        ],
+        "effects": [
+          "motion trail of magical particles",
+          "environmental response"
+        ]
+      },
+      "high_energy": {
+        "treatment": "epic_action",
+        "features": [
+          "launching with energy blast",
+          "elements responding",
+          "reality-bending power"
+        ],
+        "effects": [
+          "fire, lightning, or ice effects",
+          "shockwaves",
+          "environment transforming"
+        ]
+      }
+    },
+    "setting_rules": {
+      "indoor": {
+        "treatment": "fantasy_castle",
+        "elements": "ancient hall, mystical library, wizard's tower",
+        "background": "epic architecture with magical lighting"
+      },
+      "outdoor": {
+        "treatment": "epic_vista",
+        "elements": "dramatic mountains, mythical sky, bioluminescent elements",
+        "background": "cinematic atmosphere with god rays"
+      },
+      "abstract": {
+        "treatment": "cosmic_dimension",
+        "elements": "nebula clouds, dimensional rifts, aurora effects",
+        "background": "cosmic void with mystical energy"
+      }
+    },
+    "color_rules": {
+      "mappings": {
+        "blue": "mystical blue with purple undertones and ethereal glow",
+        "red": "fiery orange-red with inner luminosity",
+        "green": "enchanted emerald with magical shimmer",
+        "purple": "deep mystic violet with star-like sparkles",
+        "gold": "ancient gold with divine radiance"
+      },
+      "saturation": "dramatic with luminous quality",
+      "gradients": true,
+      "max_colors": 6,
+      "default_palette": "dramatic fantasy: deep blues with purple, fiery oranges with glow, enchanted emeralds with shimmer"
+    },
+    "mandatory_markers": [
+      "cinematic composition",
+      "dramatic atmospheric lighting",
+      "fantasy world aesthetic",
+      "magical effects"
+    ],
+    "negative_prompts": [
+      "mundane",
+      "everyday",
+      "plain",
+      "boring",
+      "realistic lighting",
+      "normal",
+      "simple"
+    ],
+    "trigger_keywords": [
+      "epic",
+      "fantasy",
+      "magical",
+      "legendary",
+      "heroic",
+      "mystical",
+      "adventure"
+    ],
+    "ideal_subjects": [
+      "human",
+      "animal",
+      "object"
+    ],
+    "compatible_moods": [
+      "dramatic",
+      "mysterious",
+      "powerful",
+      "adventurous"
+    ]
+  }
+}

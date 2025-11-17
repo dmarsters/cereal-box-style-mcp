@@ -1,0 +1,34 @@
+{
+  "profession_to_icon_props": {
+    "chef": "oversized white chef hat and red neckerchief",
+    "firefighter": "bright yellow helmet with red suspenders",
+    "doctor": "white coat and stethoscope around neck",
+    "astronaut": "bubble helmet and reflective space suit",
+    "detective": "magnifying glass and deerstalker hat",
+    "pirate": "eye patch and tricorn hat with skull",
+    "wizard": "pointy star-covered hat and flowing robe",
+    "knight": "shining armor and plumed helmet",
+    "ninja": "black mask and headband",
+    "superhero": "cape and mask with emblem"
+  },
+  "emotion_to_mascot_face": {
+    "happy": "wide smile with sparkles in eyes, cheeks raised in joy",
+    "sad": "single large tear drop, downturned mouth with slight frown",
+    "angry": "steam puffs from ears, furrowed brows, red tint on face",
+    "tired": "half-closed droopy eyes, small sweat drop on forehead",
+    "excited": "eyes wide open with star pupils, mouth open in enthusiasm",
+    "worried": "eyebrows raised in concern, small worry lines on forehead",
+    "confident": "one eyebrow raised, slight smirk, hands on hips pose",
+    "surprised": "eyes huge and round, mouth in O shape, eyebrows raised"
+  },
+  "location_to_fantasy": {
+    "kitchen": "alchemist's laboratory with bubbling cauldrons and mystical ingredients",
+    "office": "wizard's study with floating scrolls and enchanted quills",
+    "classroom": "ancient hall of learning with magical tomes and hovering knowledge orbs",
+    "garage": "inventor's workshop with steampunk contraptions and gear-driven machines",
+    "library": "vast mystical library with floating books and eternal candlelight",
+    "hospital": "temple of healing with glowing crystals and divine light",
+    "gym": "training grounds with elemental obstacles and power-up stations",
+    "laboratory": "arcane research chamber with dimensional equipment"
+  }
+}
